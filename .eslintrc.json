@@ -1,0 +1,27 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es2021": true
+    },
+    "extends": [
+        "plugin:react/recommended",
+        "standard"
+    ],
+    "parser": "@babel/eslint-parser",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "babelOptions": {
+          "presets": ["@babel/preset-react"]
+        },
+        "ecmaVersion": "latest",
+        "requireConfigFile": false
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+    }
+}

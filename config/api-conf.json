@@ -1,0 +1,4 @@
+{
+  "BEERS_PER_PAGE" : 24,
+  "API_URL" : "https://api.punkapi.com/v2/beers"
+}
