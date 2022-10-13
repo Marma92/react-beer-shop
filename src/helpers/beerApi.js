@@ -33,7 +33,9 @@ export const getBeers = (page) => {
           return [...new Set([...prev, ...res.data])]
         })
         setHasMore(res.data.length > 0)
-        setIsLoading(false)
+        setTimeout(() => {
+          setIsLoading(false)
+        }, 3000)
       })
       .catch((err) => {
         if (axios.isCancel(err)) return

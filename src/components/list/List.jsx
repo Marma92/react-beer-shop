@@ -49,6 +49,8 @@ const BeerList = () => {
           )
         }
       })}
+      <div className='loader'>{isLoading && 'Loading...'}</div>
+      <div className='error'>{error && 'Error...'}</div>
     </div>
   )
 }
