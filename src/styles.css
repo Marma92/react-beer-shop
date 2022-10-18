@@ -2,3 +2,29 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+#navbar{
+  display: flex;
+  flex-direction: row;
+  background-color: darkgoldenrod;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  padding-top: 0.3%;
+}
+
+#title{
+  margin-top: -0.1%;
+  padding-left: 1%;
+  font-size: larger;
+}
+
+#detail{
+  padding-top: 3%;
+}
+
+.navbar-div{
+  width: 33%;
+  text-align: right;
+}
