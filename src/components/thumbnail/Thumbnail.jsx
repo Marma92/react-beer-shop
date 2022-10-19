@@ -15,7 +15,7 @@ const Thumbnail = ({ beer, gref }) => {
       {beer.name}
       </Link>
       <br ref={gref}/>
-      {beer.volume.value / 100} {beer.volume.unit}
+      {beer.volume.value} {beer.volume.unit}
       <button className='addToCart'>Add to cart</button>
     </div>
   )

@@ -27,8 +27,8 @@ export default function Root () {
           </form>
         </div>
         <nav className="navbar-div">
-          <a href={'catalog'}>📖 Catalog</a>
-          <a href={'cart'}>🛒 Cart</a>
+          <a href={'/catalog'}>📖 Catalog</a>
+          <a href={'/cart'}>🛒 Cart</a>
         </nav>
       </div>
       <div id="detail">
