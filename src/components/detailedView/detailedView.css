@@ -18,6 +18,10 @@
   margin-right: 2%;
 }
 
+.description h2 {
+  text-align: center;
+}
+
 .details{
   margin-top: 30vh;
   margin-left: 10%;

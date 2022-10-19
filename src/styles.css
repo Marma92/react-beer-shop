@@ -36,6 +36,10 @@
   font-size: larger;
 }
 
+#title a{
+  color: black;
+}
+
 #detail{
   padding-top: 3%;
 }
