@@ -34,6 +34,10 @@ export default function Root () {
       <div id="detail">
         <Outlet />
       </div>
+      <div id='footer'>
+        <div>Made with 💕🍺 by AE.</div>
+        <div>reach me on: <a href='https://github.com/Marma92'>github</a> <a href='https://twitter.com/le_marma'>twitter</a> <a href='https://www.instagram.com/le__marma/'>instagram</a></div>
+      </div>
     </>
   )
 }

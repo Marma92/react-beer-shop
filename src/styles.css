@@ -14,6 +14,22 @@
   padding-top: 0.3%;
 }
 
+#footer{
+  display: flex;
+  flex-direction: row;
+  background-color: papayawhip;
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 5vh;
+  text-align: center;
+  padding-top: 0.5%;
+}
+
+#footer div{
+  margin-left: 20%;
+}
+
 #title{
   margin-top: -0.1%;
   padding-left: 1%;
@@ -31,4 +47,9 @@
 
 .navbar-div a{
   margin-right: 5%;
+}
+
+a{
+  text-decoration: none;
+  color: #208db3 ;
 }
