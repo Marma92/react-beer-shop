@@ -5,7 +5,7 @@ export default function Root () {
   return (
     <>
       <div id="navbar">
-        <h1 id="title">Beer Provider</h1>
+        <h1 id="title">🍺 Beer Provider</h1>
         <div className="navbar-div">
           <form id="search-form" role="search">
             <input
@@ -27,7 +27,8 @@ export default function Root () {
           </form>
         </div>
         <nav className="navbar-div">
-          <a href={'catalog'}>Catalog</a>
+          <a href={'catalog'}>📖 Catalog</a>
+          <a href={'cart'}>🛒 Cart</a>
         </nav>
       </div>
       <div id="detail">

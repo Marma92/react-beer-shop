@@ -1,0 +1,14 @@
+.detailedImage{
+  position: absolute;
+  left: 0%;
+  height: 20vh;
+}
+
+.description{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  position: absolute;
+  left: 5%;
+  max-width: 30%;
+}

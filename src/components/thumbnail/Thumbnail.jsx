@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './thumbnail.css'
 
 const Thumbnail = ({ beer, gref }) => {
@@ -7,9 +8,12 @@ const Thumbnail = ({ beer, gref }) => {
       <div className='thumbnail' >
       <img
         src={beer.image_url}
-        to={`/beers/${beer.id}`}
       />
+      <Link to={{
+        pathname: `/product/${beer.id}`
+      }}>
       {beer.name}
+      </Link>
       <br ref={gref}/>
       {beer.volume.value / 100} {beer.volume.unit}
       <button className='addToCart'>Add to cart</button>

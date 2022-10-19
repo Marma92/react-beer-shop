@@ -6,6 +6,8 @@ import {
 import Root from './routes/root'
 import ErrorPage from './pages/error-page'
 import { Catalog } from './routes/catalog'
+import Product, { loader as productLoader } from './routes/product'
+import { CartPage } from './routes/cart'
 import './styles.css'
 
 const router = createBrowserRouter([
@@ -17,6 +19,15 @@ const router = createBrowserRouter([
       {
         path: 'catalog',
         element: <Catalog/>
+      },
+      {
+        path: 'product/:id',
+        element: <Product/>,
+        loader: productLoader
+      },
+      {
+        path: 'cart',
+        element: <CartPage/>
       }
     ]
   }
