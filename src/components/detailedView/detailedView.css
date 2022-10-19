@@ -14,8 +14,17 @@
   flex-direction: column;
   text-align: left;
   max-width: 30%;
+  margin-left: 5%;
+  margin-right: 2%;
 }
 
-.details ul{
+.details{
+  margin-top: 30vh;
+  margin-left: 10%;
+  max-width: 77%;
   text-align: left;
+}
+
+.details h2{
+  text-align: center;
 }
